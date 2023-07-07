@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    position: relative;
+
+}
+
+nav h1{
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px
+}
+
+nav h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul{
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    margin: 15px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;   
+}
+
+.ham-icon{
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger li{
+    padding: 5px;
+}
+
+.hamburger li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+main{
+    position: relative;
+}
+
+.chat{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 45px;
+    margin: 20px 0 50px 0;
+}
+
+.cards{
+    text-align: center;
+}
+
+.card-item{
+    width: 30%;
+    display:inline-block;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    background-color: grey;
+}
+
+section h3{
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-size: 25px
+}
+
+section p{
+    font-size: 20px
+}
+
+@media screen and (max-width:991px) {
+
+    nav h1{
+        font-size: 40px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .ham-icon{
+        display: inline-block;
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    
+    .collapse:hover .hamburger{
+        display: block;
+        text-align: center;
+    }
+
+    .tb-6{
+        width:45%;
+    }
+
+    .tb-12{
+        width:92.5%;
+    }
+    
+}
+
+@media screen and (max-width:767px) {
+
+    nav h1{
+        font-size: 30px;
+    }
+
+    .nav-links {
+        display: none;
+      }
+
+
+
+    .mb-12{
+        width:90%;
+    }
+    
+}

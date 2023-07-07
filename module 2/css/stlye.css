@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    margin: auto auto;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+ .container{
+    margin:70px 20px;
+    text-align: center;
+ }
+
+.card{
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    background-color: grey;
+    border: 3px solid black;
+    margin: 15px 10px;
+    padding: 0 0 0 10px;
+    width: 30%;
+    text-align: left;
+}
+
+.chicken{
+    position: absolute;
+    right:0;
+    background-color: rgb(154, 61, 113);
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width: 100px;
+    text-align: center;
+}
+
+.beef{
+    position: absolute;
+    right:0;
+    background-color: brown;
+    color: white;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width: 100px;
+    text-align: center;
+}
+
+.sushi{
+    position: absolute;
+    right:0;
+    background-color: rgb(200, 200, 62);
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width: 100px;
+    text-align: center;
+}
+
+p{
+    margin:30px 10px 0 10px;
+}
+
+@media screen and (max-width:991px) {
+
+    .tb-6{
+        width:45%;
+    }
+
+    .tb-12{
+        width:92.5%;
+    }
+    
+}
+
+@media screen and (max-width:767px) {
+
+
+    .mb-12{
+        width:100%;
+    }
+    
+}
